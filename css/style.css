@@ -11,11 +11,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
 
    html {
     height: 100%;
+    background-color:#EAEAEA;
    }
 
    body {
-    max-width: 1200px;
-    margin: 120px auto 0;
+    max-width: 800px;
+    margin: 20px auto 0;
     padding: 0 100px;
     background: #fff;
     font-family: "PT Serif", "georgia", serif;
@@ -47,30 +48,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
     z-index: 2;
   }
 
-  a.button1{
-   display:inline-block;
-   padding:0.35em 1.2em;
-   border:0.1em solid #FFFFFF;
-   margin:0 0.3em 0.3em 0;
-   border-radius:0.12em;
-   box-sizing: border-box;
-   text-decoration:none;
-   font-family:'Roboto',sans-serif;
-   font-weight:300;
-   color:#FFFFFF;
-   text-align:center;
-   transition: all 0.2s;
-  }
-  a.button1:hover{
-   color:#000000;
-   background-color:#FFFFFF;
-  }
-  @media all and (max-width:30em){
-   a.button1{
-    display:block;
-    margin:0.4em auto;
-   }
-  }
    #currently {
     margin-bottom: 60px;
    }
@@ -215,6 +192,32 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
     transition: all 0.2s ease-in-out;
    }
 
+   a.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+   }
+
+   a.button1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+   }
+
+   @media all and (max-width:30em){
+    a.button1{
+     display:block;
+     margin:0.4em auto;
+    }
+   }
    p > a {
     color: #9B9B9B;
     text-decoration: none;
