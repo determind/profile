@@ -34,7 +34,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
    #logo {
     opacity: 1;
     margin-bottom: 0px;
-    height: auto;
+    height: 100px;
     max-width: 75%;
     margin: 0 auto;
     bottom: 5%;
