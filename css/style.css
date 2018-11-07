@@ -98,6 +98,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
    #face img {
     height: auto;
     max-width: 25%;
+    margin-bottom: 2%
     margin: 0 auto;
     border-radius: 50%;
    }
@@ -115,6 +116,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
     #face img {
       height: auto;
       max-width: 25%;
+      margin-bottom: 2%
       margin: 0 auto;
       border-radius: 50%;
     }
@@ -281,6 +283,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
       width: auto;
       top: auto;
       bottom: auto;
+      margin-bottom: 2%
     }
 
    }
