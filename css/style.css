@@ -26,8 +26,36 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
     text-align: center;
    }
 
+   a.button5{
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+   }
+   a.button5:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+   }
+   @media all and (max-width:30em){
+    a.button5{
+     display:block;
+     margin:0.4em auto;
+    }
+   }
+
    header {
-    margin: 10px 0 20px;
+    margin: 0px 0 20px;
     position: relative;
     z-index: 2;
    }
@@ -75,6 +103,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
    #face img {
     height: auto;
     max-width: 25%;
+    margin-top: 10%;
     margin-bottom: 2%
     margin: 0 auto;
     border-radius: 50%;
@@ -93,14 +122,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
     #face img {
       height: auto;
       max-width: 25%;
+      margin-top: 10%;
       margin-bottom: 2%
       margin: 0 auto;
       border-radius: 50%;
     }
    }
-
-
-
 
    @media screen and (max-width: 800px) {
     #face {
@@ -192,32 +219,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
     transition: all 0.2s ease-in-out;
    }
 
-   a.button1{
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.1em solid #FFFFFF;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#FFFFFF;
-    text-align:center;
-    transition: all 0.2s;
-   }
-
-   a.button1:hover{
-    color:#000000;
-    background-color:#FFFFFF;
-   }
-
-   @media all and (max-width:30em){
-    a.button1{
-     display:block;
-     margin:0.4em auto;
-    }
-   }
    p > a {
     color: #9B9B9B;
     text-decoration: none;
